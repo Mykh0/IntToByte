@@ -12,7 +12,6 @@ namespace ConvertToByte
       input = input < 0 ? 0 : input;
 
       Console.WriteLine(Convert.ToString(input, 2).PadLeft(8, '0'));
-      Console.ReadLine();
     }
   }
 }
